@@ -39,6 +39,9 @@
 <category><pattern>IS TODAY SUNDAY *</pattern>
 <template>Today is <date format="%A"/>.</template>
 </category>
+  <category><pattern>WHAT DATE IS TODAY *</pattern>
+<template><date format="%x"/>.</template>
+</category>
 <category><pattern>IS TODAY FRIDAY</pattern>
 <template>Today is <date format="%A"/>.</template>
 </category>
